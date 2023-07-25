@@ -1,0 +1,30 @@
+[
+    {
+        "first_name": "Jo",
+        "last_name": "Eckler",
+        "location": "Virtual",
+        "credential": "PLLC",
+        "organization": "Private Practice",
+        "description": "Provides PhD level evaluations and letters for gender-affirming procedures",
+        "accepts_insurance": false,
+        "insurance": "sliding scale",
+        "address": "3005 S Lamar Blvd., Ste D-109 #214, Austin, TX, 78704",
+        "email": "info@beyondtherapy.us"
+    },
+    {
+        "first_name": "Chase",
+        "last_name": "Tucker",
+        "location": "Virtual",
+        "location2": "Lakewood",
+        "credential": "MA LPC NCC",
+        "pronouns": "Any",
+        "organization": "Private Practice",
+        "description": "Queer therapy, person-centered, CBT, DBT, animal assisted therapy",
+        "accepts_insurance": true,
+        "insurance": "Anthem/Blue Cross Blue Shield, Autna, Cigna, Kaiser, Medicaid (Beacon, Colorado Access, Colorado Community Health Alliance), UnitedHealth Care, UMR",
+        "address": "9150 W Jewell Ave, Suite 109, Lakewood, CO 80232",
+        "phone_number": "(720)-924-1579",
+        "email": "chase@instinctivecounseling.com",
+        "other": "Friends with Sam Ardoin. Sam says Chase seems to have a lot of experience working with people with personality disorder diagnoses (BPD specifically but maybe others too). Also Chase has a shamanic/intuitive background as well which is great."
+    }
+]
