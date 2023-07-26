@@ -44,6 +44,9 @@ Resource.init(
         email: {
             type: DataTypes.STRING
         },
+        social: {
+            type: DataTypes.STRING
+        },
         other: {
             type: DataTypes.STRING
         }
