@@ -10,9 +10,9 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/:id', async (req, res) => {
+router.get('/:location', async (req, res) => {
     try {
-        const resourceData = await Resource.findByPk(req.params.id);
+        const resourceData = await Resource.findAll({ where: {location: req.params.location} });
         res.status(200).json(resourceData);
     } catch (err) {
         res.status(404).json(err);
