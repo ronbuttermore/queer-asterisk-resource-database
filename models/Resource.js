@@ -5,6 +5,12 @@ class Resource extends Model {}
 
 Resource.init(
     {
+        id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            primaryKey: true,
+            autoIncrement: true
+        },
         first_name: {
             type: DataTypes.STRING
         },
