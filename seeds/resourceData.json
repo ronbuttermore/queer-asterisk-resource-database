@@ -14,7 +14,7 @@
     {
         "first_name": "Chase",
         "last_name": "Tucker",
-        "location": "Virtual",
+        "location": "Telehealth",
         "location2": "Lakewood",
         "credential": "MA LPC NCC",
         "pronouns": "Any",
@@ -49,7 +49,8 @@
         "description": "Veterans",
         "address": "Tivoli Student Center, 900 Auraria Parkway, Suite 454, Denver, CO 80204",
         "phone_number": "(303)-315-7281",
-        "email": "dianna.cordero@ucdenver.edu"
+        "email": "dianna.cordero@ucdenver.edu",
+        "image": "https://i.imgur.com/UdvIRYr.jpg"
     },
     {
         "first_name": "Rafi",
@@ -64,7 +65,8 @@
         "insurance": "Medicaid, United HealthCare, Cigna, BCBS, plus scholarships, pro bono",
         "address": "1155 Sherman St., Denver, CO",
         "phone_number": "(303)-569-7774",
-        "email": "rafi@queerasterisk.com"
+        "email": "rafi@queerasterisk.com",
+        "image": "https://i.imgur.com/UFzfoew.jpg"
     },
     {
         "first_name": "Emily",
@@ -159,7 +161,8 @@
         "address": "Telehealth",
         "phone_number": "(970)-633-0601",
         "email": "carolinematthes@gmail.com",
-        "other": "www.carolinematthes.com"
+        "other": "www.carolinematthes.com",
+        "image": "https://i.imgur.com/9JGaF2V.png"
     },
     {
         "first_name": "Andrew",
@@ -247,7 +250,8 @@
         "location": "Denver",
         "organization": "iAm Clinic",
         "description": "Anger, anxiety/depression, addiction, faith, parents, couples, questioning sexuality/gender, sexual abuse survivors",
-        "address": "899 Logan St., Denver CO, 80203"
+        "address": "899 Logan St., Denver CO, 80203",
+        "image": "https://i.imgur.com/gip18Gh.png"
     },
     {
         "first_name": "Denver",
@@ -258,7 +262,8 @@
         "accepts_insurance": true,
         "insurance": "In-network with most major insurance providers and can often work with other insurers on an out-of-network basis",
         "address": "8835 American Way, Englewood, CO, 80112",
-        "phone_number": "(720)-643-4300"
+        "phone_number": "(720)-643-4300",
+        "image": "https://i.imgur.com/W6ZyEB6.png"
     },
     {
         "first_name": "Anthony",
@@ -381,7 +386,8 @@
         "address": "Denver, CO (contact for address)",
         "phone_number": "(571)-420-2864",
         "email": "sam@therapywithsamllc.com",
-        "other": "therapywithsamllc.com"
+        "other": "therapywithsamllc.com",
+        "image": "https://i.imgur.com/jDZmqsy.jpg"
     },
     {
         "first_name": "Neurodiverse",
@@ -394,7 +400,8 @@
         "insurance": "Private pay, Aetna, Cigna, Blue Cross/Blue Sheild",
         "address": "1650 38th St., St #100e, Boulder, CO, 80301",
         "phone_number": "(480)-531-1076",
-        "other": "https://www.neurodiversecounseling.com"
+        "other": "https://www.neurodiversecounseling.com",
+        "image": "https://i.imgur.com/UyXKFjS.png"
     },
     {
         "first_name": "Sneha",
@@ -561,6 +568,34 @@
         "accepts_insurance": false,
         "insurance": "Sliding scale",
         "email": "therapybyluka@gmail.com",
-        "other": "therapybyluka.com"
+        "other": "therapybyluka.com",
+        "image": "https://i.imgur.com/njzLXdj.jpg"
+    },
+    {
+        "first_name": "Julie",
+        "last_name": "Silvestri",
+        "location": "Telehealth",
+        "location2": "Colorado Springs",
+        "credential": "MFT-C",
+        "pronouns": "she/they",
+        "organization": "A New Leaf Therapy",
+        "description": "Her specialties are with families, their kids, and couples, looking at how the family system functions, generational cycles of patterns, and work with the client(s) to break these cycles.",
+        "insurance": "Private Pay, Medicaid, Aetna, Cigna",
+        "email": "julie@anewleaftherapy.org",
+        "image": "https://i.imgur.com/a3i9REz.jpg"
+    },
+    {
+        "first_name": "Jack",
+        "last_name": "Dickey",
+        "location": "Telehealth",
+        "credential": "LPC",
+        "pronouns": "he/him/his",
+        "organization": "Fox Mind Counseling",
+        "description": "Integrative therapist, using several different modalities, including EMDR. Focus on body-based and creative therapies which tap into the unconscious and support clients in healing, transforming, and releasing past distress.",
+        "accepts_insurance": true,
+        "insurance": "Private Pay",
+        "email": "jack@foxmindcounseling.com",
+        "other": "http://foxmindcounseling.com/",
+        "image": "https://i.imgur.com/ReSu9JH.jpg"
     }
 ]

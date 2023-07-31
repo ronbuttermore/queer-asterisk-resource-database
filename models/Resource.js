@@ -55,6 +55,9 @@ Resource.init(
         },
         other: {
             type: DataTypes.STRING
+        },
+        image: {
+            type: DataTypes.STRING
         }
     },
     {
