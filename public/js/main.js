@@ -1,6 +1,7 @@
-const submitBtn = document.querySelector('#submitBtn');
+var selectedLocation = document.querySelector('input[name="location"]:checked');
+var submitBtn = document.querySelector('#submitBtn');
 
-var loggedIn = true;
+var loggedIn = false;
 
 submitBtn.addEventListener('click', resultsPage);
 
@@ -12,17 +13,17 @@ function resultsPage() {
     }
 };
 
-document.addEventListener('DOMContentLoaded', function () {
-    const contentDiv = document.querySelector('div');
+// document.addEventListener('DOMContentLoaded', function () {
+//     const contentDiv = document.querySelector('div');
 
-    if (contentDiv) {
-        function handleDivClick(event) {
-            console.log('The div was clicked!');
-            console.log(event.target);
-        }
+//     if (contentDiv) {
+//         function handleDivClick(event) {
+//             console.log('The div was clicked!');
+//             console.log(event.target);
+//         }
 
-        contentDiv.addEventListener('click', handleDivClick);
-    } else {
-        console.log('Error: The div element was not found.');
-    }
-});
+//         contentDiv.addEventListener('click', handleDivClick);
+//     } else {
+//         console.log('Error: The div element was not found.');
+//     }
+// });
