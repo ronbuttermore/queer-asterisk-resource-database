@@ -1,3 +1,17 @@
+const submitBtn = document.querySelector('#submitBtn');
+
+var loggedIn = true;
+
+submitBtn.addEventListener('click', resultsPage);
+
+function resultsPage() {
+    if (loggedIn) {
+        document.location.replace('/resources');
+    } else {
+        document.location.replace('/login');
+    }
+};
+
 document.addEventListener('DOMContentLoaded', function () {
     const contentDiv = document.querySelector('div');
 
