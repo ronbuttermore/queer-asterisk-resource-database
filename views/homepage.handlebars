@@ -12,19 +12,6 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <a href="/">Queer Asterisk's Trans & Affirming Colorado Resource Login <i class="bi bi-house-fill"></i></a>
-      </h1>
-      <nav>
-        {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a>
-        <button id="logout" class="btn-no-style">Logout</button>
-        {{else}}
-        <a href="/dashboard">Dashboard</a>
-        <a href="/login">Login</a>
-        {{/if}}
-      </nav>
-    </header>
     <main>
       <h2>Where would you like to find resources?</h2>
       <input type="radio" id="Denver" name="location" value="Denver">
@@ -39,6 +26,7 @@
       <label for="Colorado Springs">Colorado Springs</label></br>
       <input type="radio" id="Aurora" name="location" value="Aurora">
       <label for="Aurora">Aurora</label></br>
+      <button type="button">Find Resources in Your Area!</button>
     </main>
     <footer>
     </footer>
