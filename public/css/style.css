@@ -27,3 +27,35 @@ main {
     margin: 20px;
 }
 
+button {
+    background-color: #2a9d8f;
+    border: 0;
+    padding: 1%;
+    color: white;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+h1 {
+    background-color: #2a9d8f;
+    border: 0;
+    padding: 1%;
+    color: white;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+a {
+    color: green; 
+  }
+
+main {
+    text-align: center;
+    padding: 10%;
+  }
+
+h3 {
+    text-align: left;
+    padding: 4%
