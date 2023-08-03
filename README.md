@@ -16,6 +16,7 @@ This project is a resource website that allows users to look up trans and queer-
 What I learned is that...
 
 ### Kara's Learning
+How to create handlebars and the javascript functions for the handlebars. In addition to assisting with the styling of the site and developement of the README file.
 
 ## USER STORY
 ```md
@@ -79,10 +80,12 @@ Visit http://localhost:<PORT> in your web browser to access the website.
 6. Once you have read about the counselor and are ready, contact the counselor and initiate the consultation process.
 
 ### GITHUB REPOSITORY
+https://github.com/ronbuttermore/queer-asterisk-resource-database.git
 
 ### LIVE SITE
 
 ### WIREFRAME
+https://miro.com/app/board/uXjVMz_8RG4=/?share_link_id=902483720307
 
 ## Technologies
 Node.js and Express.js for building the RESTful API.
@@ -93,9 +96,9 @@ Express-session and cookies for user authentication and login.
 ## CREDITS
 
 ## Contact
-- Ron Buttermore - ENTER EMAIL ADDRESS HERE
+- Ron Buttermore - ron.buttermore@gmail.com
 - Kara Faris - KaraFaris@icloud.com
-- Mohamed Hussein -ENTER EMAIL ADDRESS HERE
+- Mohamed Hussein -Philadelphia536@yahoo.com
 - Ren Rojas - rojas.renn@gmail.com
 
 ## LICENSE
