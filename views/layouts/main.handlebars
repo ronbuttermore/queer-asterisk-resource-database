@@ -11,7 +11,18 @@
     </head>
 
     <body>
-        <header></header>
+        <header>
+            <h1>
+                <a href="/"><i class="bi bi-house-fill"></i> Queer Source Trans & Affirming Colorado Resource</a>
+            </h1>
+            <nav>
+                {{#if loggedIn}}
+                <button id="logout" class="btn-no-style">Logout</button>
+                {{else}}
+                <a href="/login">Login</a>
+                {{/if}}
+            </nav>
+        </header>
         <div class="row">
             <div class="col-lg-4 col-md-3 col-sm-12 banner">
                 <img src="/images/1.jpg" alt="Queer Source Logo" height="500" width="500">

@@ -1,14 +1,30 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const contentDiv = document.querySelector('div');
+var submitBtn = document.querySelector('#submitBtn');
 
-    if (contentDiv) {
-        function handleDivClick(event) {
-            console.log('The div was clicked!');
-            console.log(event.target);
-        }
+var loggedIn = false;
 
-        contentDiv.addEventListener('click', handleDivClick);
+submitBtn.addEventListener('click', resultsPage);
+
+function resultsPage() {
+    var selectedLocation = document.querySelector('input[name="location"]:checked').value;
+    if (loggedIn) {
+        document.location.replace('/resources');
     } else {
-        console.log('Error: The div element was not found.');
+        localStorage.setItem("location", selectedLocation);
+        document.location.replace('/login');
     }
-});
+};
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     const contentDiv = document.querySelector('div');
+
+//     if (contentDiv) {
+//         function handleDivClick(event) {
+//             console.log('The div was clicked!');
+//             console.log(event.target);
+//         }
+
+//         contentDiv.addEventListener('click', handleDivClick);
+//     } else {
+//         console.log('Error: The div element was not found.');
+//     }
+// });
