@@ -5,6 +5,10 @@ router.get('/', async (req, res) => {
     res.render('homepage');
 })
 
+router.get('/login', async (req, res) => {
+  res.render('Login');
+})
+
 router.get('/resources', async (req, res) => {
     const resourceData = await Resource.findAll(
         // {
