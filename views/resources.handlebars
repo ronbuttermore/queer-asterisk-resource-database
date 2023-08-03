@@ -23,16 +23,18 @@
 <h2></h2>
 <div id="card-container" class="d-flex flex-wrap justify-content-center align-content-center">
       <div class="card" style="width: 15rem;">
+          {{#if project.image}} 
           <img class="card-img bg-secondary object-fit-fill border rounded" width="300px" height="250px" src= {{project.image}}>
+          {{/if}}
           <div class="card-body">
               <h3> {{project.first_name}} {{project.last_name}}, {{credential}}</h3>
               <h5> {{project.organization}}</h5>
               <h5> {{project.location}}</h5>
-              <p>Address: {{project.address}}</p>
-              <p>Accepts insurance? {{project.accepts_insurance}}</p>
-              <p>Forms of payment: {{project.insurance}}</p>
-              <p>Contact: {{project.email}}</p>
-              <p>{{project.description}}</p>
+              <h6>Address:</h6><p>{{project.address}}</p>
+              <p><h6>Accepts insurance:</h6> {{project.accepts_insurance}}</p>
+              <p><h6>Forms of payment:</h6> {{project.insurance}}</p>
+              <a href=mailto:{{project.email}}> {{project.email}} </a>
+              <p><h6>Description:</h6>{{project.description}}</p>
           </div>
       </div>
   </div>
