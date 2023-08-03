@@ -16,31 +16,6 @@
    <title>Queer Resources</title>
 </head>
 
-<section class="mb-4"> <!-- Added for filters -->
-    <div class="d-flex flex-row flex-wrap justify-content-end align-content-center bg-light px-5 py-4">
-      <div class="">
-          <select class="form-select" id="location">
-              <option value="none" selected>Filter by Location</option>
-              <option value="denver">Denver</option>
-              <option value="telehealth">Telehealth</option>
-              <option value="boulder">Boulder</option>
-              <option value="lakewood">Lakewood</option>
-              <option value="coloradoSprings">Colorado Springs</option>
-              <option value="aurora">Aurora</option>
-          </select>
-      </div>
-      <div class="pl-3">
-        <select class="form-select" id="insurance">
-            <option value="none" selected>Filter by Insurance</option>
-                <option value="insurance">Insurance</option>
-                <option value="noInsurance">No Insurance</option>
-        </select>
-    </div>
-      <div class="pl-3">
-          <button type="button" class="btn btn-light text-white" id="filterBtn">Filter</button>
-      </div>
-  </div>
-  </section>
 
 <div>
     {{#each projects as |project| }}
@@ -62,28 +37,6 @@
       </div>
   </div>
 {{/each}}
-</div>
-  
-   <nav aria-label="Search Results pages">
-     <ul class="pagination justify-content-center">
-       <li class="page-item">
-         <a class="page-link">Previous</a>
-       </li>
-       <li class="page-item">
-         <a class="page-link page-number">1</a>
-       </li>
-       <li class="page-item">
-         <a class="page-link page-number">2</a>
-       </li>
-       <li class="page-item">
-         <a class="page-link page-number">3</a>
-       </li>
-       <li class="page-item">
-         <a class="page-link">Next</a>
-       </li>
-     </ul>
-   </nav>   
-
 
    <footer class="section d-flex flex-column justify-content-center align-items-center bg-dark text-white">
      <p>Copyright 2023 | Queer Source Inc.</p>
