@@ -1,4 +1,3 @@
-var selectedLocation = document.querySelector('input[name="location"]:checked');
 var submitBtn = document.querySelector('#submitBtn');
 
 var loggedIn = false;
@@ -6,9 +5,11 @@ var loggedIn = false;
 submitBtn.addEventListener('click', resultsPage);
 
 function resultsPage() {
+    var selectedLocation = document.querySelector('input[name="location"]:checked').value;
     if (loggedIn) {
         document.location.replace('/resources');
     } else {
+        localStorage.setItem("location", selectedLocation);
         document.location.replace('/login');
     }
 };
