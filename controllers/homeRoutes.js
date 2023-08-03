@@ -24,7 +24,7 @@ router.get('/resources', async (req, res) => {
 
       console.log("IS IT WORKING?", {projects})
 
-    res.render('test', {
+    res.render('resources', {
         projects
     });
 })
