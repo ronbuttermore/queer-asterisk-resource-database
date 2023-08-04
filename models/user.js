@@ -1,11 +1,12 @@
-
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const bcrypt = require('bcrypt');
 
-class User extends Model {
-  static init(sequelize) {
-    return super.init(
+class User extends Model {  validatePassword(password) {
+  return bcrypt.compare(password, this.password);
+}}
+User.init 
+    (
       {
         username: {
           type: DataTypes.STRING,
@@ -23,20 +24,15 @@ class User extends Model {
         },
       },
       {
+        hooks: { 
+           beforeCreate:async(user) => {
+          user.password = await bcrypt.hash(user.password, 10);
+          return user;
+        }},
         sequelize,
         modelName: 'user',
       }
     );
-  }
 
-  static async beforeCreate(user) {
-    user.password = await bcrypt.hash(user.password, 10);
-    return user;
-  }
-
-  validatePassword(password) {
-    return bcrypt.compare(password, this.password);
-  }
-}
 
 module.exports = User;

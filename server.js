@@ -3,7 +3,6 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
-const routes = require('./controllers');
 const sequelize = require('./config/connection');
 const hbs = exphbs.create({});
 const { v4: uuidv4 } = require('uuid');
@@ -15,12 +14,12 @@ app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 const sess = {
-  secret: uuidv4(), 
+  secret: uuidv4(),
   resave: false,
   saveUninitialized: false,
   store: new SequelizeStore({
     db: sequelize,
-    table: ''
+    table: '',
   }),
 };
 
@@ -28,9 +27,11 @@ app.use(session(sess));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use("/", express.static(path.join(__dirname, 'public')));
+app.use('/', express.static(path.join(__dirname, 'public')));
 
-app.use(routes);
+// Import and use the userRoutes
+const userRoutes = require('./controllers/api/userRoutes');
+app.use('/api', userRoutes);
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));

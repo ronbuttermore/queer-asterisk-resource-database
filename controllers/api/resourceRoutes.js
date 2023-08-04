@@ -28,4 +28,23 @@ router.post('/', async (req, res) => {
     }
 });
 
+
+
+router.post('/filteredData', async (req, res) => {
+    try {
+      if (req.body.location) {
+        const resourceData = await Resource.findAll({ where: { location: req.body.location } });
+        console.log(resourceData);
+      }
+      if (req.body.Insurance) {
+        const insuranceData = await Resource.findAll({ where: { Insurance: req.body.Insurance } });
+        console.log(insuranceData);
+      }
+      res.status(200).end();
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  });
+  
+
 module.exports = router;
