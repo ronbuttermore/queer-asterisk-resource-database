@@ -9,6 +9,7 @@ Finding mental health providers can be a difficult process already, but finding 
 This project is a resource website that allows users to look up trans and queer-affirming counselors after logging into the website and also contribute by adding additional resources. It is built using Node.js and Express.js to create a RESTful API, Handlebars.js as the template engine, and MySQL with the Sequelize ORM for the database. The website follows the MVC (Model-View-Controller) paradigm for a well-organized folder structure.
 
 ### Ron's Learning
+I learned how to better collaborate, communicate, and plan with my teammates. I also learned quite a bit about the MVC paradigm, utilizing Sequelize models to access CRUD operations for a database through node.js, creating a RESTful API routes, and using the handlebars templates.
 
 ### Mohamed's Learning
 -I learned to mange my time better. 
@@ -88,6 +89,7 @@ Visit http://localhost:<PORT> in your web browser to access the website.
 https://github.com/ronbuttermore/queer-asterisk-resource-database.git
 
 ### LIVE SITE
+https://obscure-reaches-55046-bf910aba05ce.herokuapp.com/
 
 ### WIREFRAME
 https://miro.com/app/board/uXjVMz_8RG4=/?share_link_id=902483720307
