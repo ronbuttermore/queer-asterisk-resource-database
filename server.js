@@ -6,6 +6,7 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const sequelize = require('./config/connection');
 const hbs = exphbs.create({});
 const { v4: uuidv4 } = require('uuid');
+const routes = require('./controllers');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -29,9 +30,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/', express.static(path.join(__dirname, 'public')));
 
-// Import and use the userRoutes
-const userRoutes = require('./controllers/api/userRoutes');
-app.use('/api', userRoutes);
+app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
