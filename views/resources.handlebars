@@ -22,9 +22,9 @@
 
 <h2></h2>
 <div id="card-container" class="d-flex flex-wrap justify-content-center align-content-center">
-      <div class="card" style="width: 15rem;">
+      <div class="card" style="width: 30rem;">
           {{#if project.image}} 
-          <img class="card-img bg-secondary object-fit-fill border rounded" width="300px" height="250px" src= {{project.image}}>
+          <img class="card-img bg-secondary object-fit-contain border rounded" width="300px" height="250px" src= {{project.image}}>
           {{/if}}
           <div class="card-body">
               <h3> {{project.first_name}} {{project.last_name}}, {{credential}}</h3>
