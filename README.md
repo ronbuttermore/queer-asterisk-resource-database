@@ -26,9 +26,10 @@ How to create handlebars and the javascript functions for the handlebars. In add
 
 ## USER STORY
 ```md
-AS A person who is seeking safer and queer affirming resources
-I WANT an application that will provide me this information based on my location preference and whether or not I have insurance.
-SO THAT I can be fully informed and know I can be safe before making a big decision of finding a counselor. 
+AS A person who is seeking safer and queer affirming resources.I WANT an application that will provide me this information based on my location preference and whether or not I have insurance.SO THAT I can be fully informed and know I can be safe before making a big decision of finding a counselor.
+
+AS A person who seeks to add their own private practice to a queer affirming database.I WANT an application that will provide me a way to add this data.SO THAT queer folx can find me as a resource.
+
 ```
 
 ## ACCEPTANCE CRITERIA
