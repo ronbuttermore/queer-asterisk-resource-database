@@ -11,6 +11,11 @@ This project is a resource website that allows users to look up trans and queer-
 ### Ron's Learning
 
 ### Mohamed's Learning
+-I learned to mange my time better. 
+-My collaboration with others got better, as well as learning how to receive constructive criticism.
+-I learned how to use authentication for user login. 
+-My processing skills got better while deciphering others code for bugs. 
+
 
 ### Ren's Learning
 What I learned is that...
