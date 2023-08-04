@@ -1,12 +1,12 @@
 # Queer Source
 
-A go to website that provides resources for trans and queer affirming mental health resources.
+A go to website for queer & trans identifying folx that provides mental health resources in Colorado.
 
 ## DESCRIPTION 
 
 Finding mental health providers can be a difficult process already, but finding someone who is queer-affirming for someone who is trans or queer means finding safety and can mean saving their life. 
 
-This project is a resource website that allows users to look up trans and queer-affirming counselors after logging into the website. It is built using Node.js and Express.js to create a RESTful API, Handlebars.js as the template engine, and MySQL with the Sequelize ORM for the database. The website follows the MVC (Model-View-Controller) paradigm for a well-organized folder structure.
+This project is a resource website that allows users to look up trans and queer-affirming counselors after logging into the website and also contribute by adding additional resources. It is built using Node.js and Express.js to create a RESTful API, Handlebars.js as the template engine, and MySQL with the Sequelize ORM for the database. The website follows the MVC (Model-View-Controller) paradigm for a well-organized folder structure.
 
 ### Ron's Learning
 
@@ -18,7 +18,7 @@ This project is a resource website that allows users to look up trans and queer-
 
 
 ### Ren's Learning
-What I learned is that...
+I learned how to work with built-in handlebars and using it with images (from outside servers such as Imgur) from our built api database. I also learned how to customize the cards by appending the data with handlebars.
 
 ### Kara's Learning
 How to create handlebars and the javascript functions for the handlebars. In addition to assisting with the styling of the site and developement of the README file.
