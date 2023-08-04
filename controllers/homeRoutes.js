@@ -47,4 +47,8 @@ router.get('/login', async (req, res) => {
   res.render('login');
 });
 
+router.get('/addresource', async (req, res) => {
+  res.render('addresource');
+})
+
 module.exports = router;
